@@ -11,5 +11,5 @@ ENV GOPATH /gopath
 ENV GOBIN /gopath/bin
 ENV PATH $PATH:$GOROOT/bin:$GOPATH/bin
 
-RUN go get github.com/gorilla/mux
-RUN go get gopkg.in/mgo.v2
+RUN go get -u github.com/gobuffalo/buffalo/buffalo
+RUN buffalo dev
