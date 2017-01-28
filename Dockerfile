@@ -1,5 +1,5 @@
 FROM gliderlabs/alpine:3.3
-MAINTAINER Riten Vagadiya <i@ritenv.com> (@ritenv)
+MAINTAINER Jacob Winn <jmwinn21@gmail.com> (@jacob_winn)
 RUN echo 'Welcome to Alpine, all set for Golang and Node!'
 RUN apk update && apk add curl git go && mkdir /gopath
 
